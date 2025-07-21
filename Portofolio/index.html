@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fernando Riski Susanthoz - Portfolio</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav container">
+        <div class="logo">Fernando Susanthoz</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#organization">Organizations</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="floating-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+      </div>
+      <div class="hero-content container">
+        <h1>Fernando Riski Susanthoz</h1>
+        <p>Information Technology Student | IoT Developer | Backend Engineer</p>
+
+        <div class="contact-info">
+          <a href="tel:08889283276" class="contact-item">
+            <i class="fas fa-phone"></i>
+            <span>08889283276</span>
+          </a>
+          <a href="mailto:fernandosusanthoz@gmail.com" class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <span>fernandosusanthoz@gmail.com</span>
+          </a>
+          <a
+            href="https://github.com/Nndostz"
+            class="contact-item"
+            target="_blank"
+          >
+            <i class="fab fa-github"></i>
+            <span>GitHub</span>
+          </a>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Tangerang</span>
+          </div>
+        </div>
+
+        <a href="#about" class="cta-button">
+          <i class="fas fa-arrow-down"></i>
+          Explore My Work
+        </a>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- About Section -->
+      <section id="about" class="section">
+        <div class="container">
+          <h2 class="section-title">About Me</h2>
+          <div class="about-content">
+            <p>
+              I am an undergraduate Information Technology student with a strong
+              commitment to addressing complex challenges with technology. I
+              possess a solid understanding of core IT concepts such as network
+              architecture, database systems, and software development.
+            </p>
+            <br />
+            <p>
+              Through practicum and various projects involving web development,
+              mobile applications, and data analysis, I have enhanced my skills
+              in programming, system analysis, and teamwork. Recently, I
+              completed a thesis proposal defense on "Air Predict: A Smart Air
+              Quality Monitoring System Based on IoT," demonstrating my ability
+              to integrate IoT and data analytics to solve real-world
+              environmental issues.
+            </p>
+            <br />
+            <p>
+              I am eager to continue learning and applying my IT skills in a
+              professional environment to contribute to innovative and impactful
+              solutions.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="section">
+        <div class="container">
+          <h2 class="section-title">Projects</h2>
+          <div class="projects-grid">
+            <div class="project-card">
+              <div class="project-header">
+                <div class="project-title">Electric Motorcycle Rental App</div>
+                <div class="project-role">Backend Developer</div>
+              </div>
+              <div class="project-content">
+                <div class="project-period">Mar 2025 - Jun 2025</div>
+                <div class="project-description">
+                  An innovative platform designed to provide convenient and
+                  efficient green transportation solutions. The app allows users
+                  to find, book, and rent electric motorcycles easily through
+                  their smartphones.
+                </div>
+                <ul>
+                  <li>
+                    • Developed and managed database for user data, motorcycle
+                    information, and rental details
+                  </li>
+                  <li>
+                    • Implemented main business logic including user
+                    registration/login and payment integration
+                  </li>
+                  <li>
+                    • Developed real-time features for motorcycle location
+                    updates and booking status
+                  </li>
+                </ul>
+                <div class="project-tech">
+                  <span class="tech-tag">Database Management</span>
+                  <span class="tech-tag">Real-time Systems</span>
+                  <span class="tech-tag">Payment Integration</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-header">
+                <div class="project-title">Gas Leak Detection System</div>
+                <div class="project-role">IoT Developer</div>
+              </div>
+              <div class="project-content">
+                <div class="project-period">Jan 2025</div>
+                <div class="project-description">
+                  IoT-based system to detect gas leakage using MQ-135 sensor and
+                  ESP32 microcontroller. Data is sent in real-time to the Blynk
+                  dashboard with mobile notifications for early fire/explosion
+                  warnings.
+                </div>
+                <ul>
+                  <li>• Assembled hardware components and sensors</li>
+                  <li>• Programmed ESP32 microcontroller</li>
+                  <li>
+                    • Integrated Blynk IoT platform for real-time monitoring
+                  </li>
+                </ul>
+                <div class="project-tech">
+                  <span class="tech-tag">ESP32</span>
+                  <span class="tech-tag">MQ-135 Sensor</span>
+                  <span class="tech-tag">Blynk IoT</span>
+                  <span class="tech-tag">Arduino Programming</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-header">
+                <div class="project-title">LED Control via MQTT</div>
+                <div class="project-role">Embedded Systems</div>
+              </div>
+              <div class="project-content">
+                <div class="project-period">Jan 2025</div>
+                <div class="project-description">
+                  Created a LED light circuit that can be controlled via
+                  smartphone using MQTT protocol for remote device control and
+                  IoT communication.
+                </div>
+                <ul>
+                  <li>• Designed and assembled LED control circuit</li>
+                  <li>• Implemented MQTT communication protocol</li>
+                  <li>• Developed mobile app integration</li>
+                </ul>
+                <div class="project-tech">
+                  <span class="tech-tag">MQTT Protocol</span>
+                  <span class="tech-tag">Mobile App</span>
+                  <span class="tech-tag">Circuit Design</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-header">
+                <div class="project-title">Dukun The Last Job</div>
+                <div class="project-role">Frontend Developer</div>
+              </div>
+              <div class="project-content">
+                <div class="project-period">Sep 2024 - Jan 2025</div>
+                <div class="project-description">
+                  An educational 2D pixel game with fantasy and environmental
+                  adventure themes, designed to engage players while delivering
+                  educational content.
+                </div>
+                <ul>
+                  <li>• Created game characters and assets</li>
+                  <li>• Designed game backgrounds and environments</li>
+                  <li>• Developed sound effects for game interactions</li>
+                </ul>
+                <div class="project-tech">
+                  <span class="tech-tag">Game Development</span>
+                  <span class="tech-tag">2D Graphics</span>
+                  <span class="tech-tag">Sound Design</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="section">
+        <div class="container">
+          <h2 class="section-title">Skills</h2>
+          <div class="skills-container">
+            <div class="skills-category">
+              <h3><i class="fas fa-lightbulb"></i> Soft Skills</h3>
+              <div class="skills-list">
+                <span class="skill-item">Problem Solving</span>
+                <span class="skill-item">Critical Thinking</span>
+                <span class="skill-item">Teamwork</span>
+                <span class="skill-item">Adaptability</span>
+                <span class="skill-item">Time Management</span>
+                <span class="skill-item">Growth Mindset</span>
+                <span class="skill-item">Work Ethic</span>
+                <span class="skill-item">Responsibility</span>
+              </div>
+            </div>
+
+            <div class="skills-category">
+              <h3><i class="fas fa-code"></i> Hard Skills</h3>
+              <div class="skills-list">
+                <span class="skill-item">Microcontrollers</span>
+                <span class="skill-item">Embedded Systems</span>
+                <span class="skill-item">Basic Electronics</span>
+                <span class="skill-item">C Programming</span>
+                <span class="skill-item">Arduino Programming</span>
+                <span class="skill-item">Troubleshooting</span>
+                <span class="skill-item">Debugging</span>
+                <span class="skill-item">Backend Development</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section id="education" class="section">
+        <div class="container">
+          <h2 class="section-title">Education</h2>
+          <div class="education-card">
+            <h3>
+              <i class="fas fa-graduation-cap"></i> Telkom University - Jakarta,
+              Indonesia
+            </h3>
+            <div class="gpa">3.83/4.00 GPA</div>
+            <p><strong>Bachelor of Computer Science</strong></p>
+            <p>Oct 2022 - Jan 2026 (Expected)</p>
+
+            <div class="achievements">
+              <div class="achievement">
+                <i class="fas fa-medal"></i>
+                <div>PPKO Program Participant</div>
+              </div>
+              <div class="achievement">
+                <i class="fas fa-trophy"></i>
+                <div>OPES Scholarship Recipient</div>
+                <small>(Minimum IPS: 3.50)</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Organization Section -->
+      <section id="organization" class="section">
+        <div class="container">
+          <h2 class="section-title">Organizations</h2>
+          <div class="org-grid">
+            <div class="org-card">
+              <div class="org-header">
+                <div class="org-name">
+                  Student Team for Research, Innovation, and Valuables
+                  Experiences (STRIVE)
+                </div>
+                <div class="org-position">Daily Management Board</div>
+                <div class="org-period">Dec 2024 - Present</div>
+              </div>
+              <div class="org-description">
+                STRIVE is an organization that gathers students who conduct
+                research, participate in competitions such as PPKO and PKM, or
+                engage in collaborative study sessions.
+              </div>
+              <ul class="org-responsibilities">
+                <li>Assist in conducting research projects</li>
+                <li>Help determine ideas and topics for competitions</li>
+                <li>Facilitate collaborative learning environments</li>
+              </ul>
+            </div>
+
+            <div class="org-card">
+              <div class="org-header">
+                <div class="org-name">Arshaka Bimantara</div>
+                <div class="org-position">Secretary and Head of Logistics</div>
+                <div class="org-period">Nov 2022 - Present</div>
+              </div>
+              <div class="org-description">
+                An organization of nature-loving students focused on outdoor
+                activities, survival skills training, and environmental
+                sustainability projects including ecoenzyme soap production.
+              </div>
+              <ul class="org-responsibilities">
+                <li>Create and manage official documents and correspondence</li>
+                <li>Lead a 5-person logistics team with task delegation</li>
+                <li>Coordinate activities both on and off campus</li>
+                <li>Participate in environmental sustainability projects</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
